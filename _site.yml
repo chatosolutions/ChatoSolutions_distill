@@ -1,0 +1,28 @@
+name: "website"
+title: "Chato Solutions"
+description: |
+  Chato Solutions
+output_dir: "_site"
+navbar:
+  logo:
+    image: images/logo_fb.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Shiny Apps"
+      menu:
+        - text: "RET"
+          href: app.html
+        - text: "PTA"
+          href: appPTA.html
+    - icon: fa fa-github
+      href: https://github.com/chatosolutions
+    - icon: fa fa-twitter
+      href: https://twitter.com/ChatoSolutions
+    - icon: fab fa-instagram
+      href: https://www.instagram.com/chatosolutions/
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/company/chato-solutions/
+output: distill::distill_article
